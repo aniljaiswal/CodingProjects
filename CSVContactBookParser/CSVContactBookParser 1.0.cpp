@@ -83,7 +83,7 @@ vector<string>& splitstring::split(char delim, int rep)
 int main()
 {
     vector<string> csv; // The program can be easily modified to read from an actual csv file by using vector<string> and getline()
-    csv.push_back("Name,Address,Phone,DOB"); // column headers
+    csv.push_back("Name,Address,Phone,DOB"); // Sample column headers
     csv.push_back("Bob Jaker,20th Hill Road California,837-7247882,12-03-1982");
     csv.push_back("Mario Luigi,120 Sand Hill Road,98272-28388,30-08-1971");
     csv.push_back("Biswanath Rai,488 Banjara Apartments Kolkata,625-25423-263,16-12-1991");
